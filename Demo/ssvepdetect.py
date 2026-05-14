@@ -2,7 +2,7 @@ import numpy as np
 from scipy import signal as scipysignal
 from sklearn.cross_decomposition import CCA
 
-# 本示例使用cca典型相关分析算法对信号进行分析
+# 使用cca典型相关分析算法对信号进行分析
 # cca的基本原理是计算信号和参考信号之间的相关性，和谁的相关性最大则判定受哪个频率的刺激
 
 class ssvepDetect:
