@@ -1,6 +1,6 @@
 import numpy as np
 import csv
-from ssvepDetect import ssvepDetect
+from ssvepdetect import ssvepDetect
 
 if __name__ == '__main__':
     # 实验数据路径
