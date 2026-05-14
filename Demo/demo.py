@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     print("正确率： %.2f"%(sum(corr)/48))
 
-    # results里面包含了所有的预测值，应当按顺序填写到result.csv中，并将结果反馈至组委会
+    # results里面包含了所有的预测值，应当按顺序填写到result.csv中
     for i in range(48):
         print("task%d预测值：%d"%(i,results[i]))
 
