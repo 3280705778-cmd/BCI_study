@@ -1,2 +1,8 @@
 # BCI_study
-I’ll upload BCI learning resources from time to time. If you’re interested, feel free to share suggestions for revisions, learn together with me, or get in touch via email: 3280705778@qq.com
+时不时上传一些学习BCI的资料，感兴趣的可以提出一些建议帮忙修改一起学习呀或者与我联系（3280705778@qq.com)
+这几天主要是上传一些参加CRAIC的比赛资料（有人帮忙优化么）
+
+Demo文件是基本代码，是基于SSVEP的脑机接口数据分类算法，测试数据在ExampleData里，感兴趣的可以优化一下（后续我也会逐步改良），比如说添加交叉验证，SVM，或者其他神经网络算法和分类回归方法，目的就是提高识别准确率
+测试数据集里taskID代表某一类数据的编号，stimID就是真实正确的数据分类后的类型，所以算法就是要识别出某一类数据究竟是属于哪一类，数据集前6列就是真实的6通道脑电采集数据
+采样率250Hz，数据点数=采样率*采集时长（datalen)
+先说到这，要上课了
